@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    background-color: rgb(64, 64, 64);
+}
+
+.navbar__header {
+    width: 50%;
+}
+
+.navbar__list {
+    width: 50%;
+
+}

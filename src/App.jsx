@@ -1,11 +1,19 @@
 import './App.css';
+import MovieList from './MovieList';
+import Navbar from './Navbar';
+import AddMovies from './AddMovies';
+import { MovieProvider } from './MovieContext';
 
 
 function App() {
   return (
-
-    <div className="App">
-    </div>
+    <MovieProvider>
+      <div className="App">
+        <Navbar />
+        <AddMovies />
+        <MovieList />
+      </div>
+    </MovieProvider>
   );
 }
 
